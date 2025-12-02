@@ -6,7 +6,7 @@ This repository documents the full setup, configuration, and experimentation env
 ## Lab Overview
 This lab simulates a small Windows domain environment using virtual machines.
 
-** Includes: **
+**Includes:**
 1 Domain Controller
 2 Windows clients
 Group Policy configuration
@@ -14,7 +14,7 @@ Organizational Unit structure
 User accounts
 Security
 
-** Goals: **
+**Goals:**
 Learn how Active Directory works
 Practice real-world IT admin tasks
 Build a portfolio-ready project
@@ -22,7 +22,7 @@ Experiment with blue team & basic security concepts
 
 ## Environment Setup
 
-|** Component ** | ** Technology **    |
+|**Component** | **Technology**    |
 |----------------|---------------------|
 | Hypervisor     | VirtualBox          |
 | Server OS      | Windows Server 2022 |
