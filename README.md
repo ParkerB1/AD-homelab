@@ -7,18 +7,18 @@ This repository documents the full setup, configuration, and experimentation env
 This lab simulates a small Windows domain environment using virtual machines.
 
 **Includes:**
-1 Domain Controller
-2 Windows clients
-Group Policy configuration
-Organizational Unit structure
-User accounts
-Security
+- 1 Domain Controller
+- 2 Windows clients
+- Group Policy configuration
+- Organizational Unit structure
+- User accounts
+- Security
 
 **Goals:**
-Learn how Active Directory works
-Practice real-world IT admin tasks
-Build a portfolio-ready project
-Experiment with blue team & basic security concepts
+- Learn how Active Directory works
+- Practice real-world IT admin tasks
+- Build a portfolio-ready project
+- Experiment with blue team & basic security concepts
 
 ## Environment Setup
 
@@ -32,10 +32,10 @@ Experiment with blue team & basic security concepts
 ## Setup
 All setup steps are stored in the /setup folder:
 
-Hypervisor installation
-VM creation
-Windows Server configuration
-Domain Controller Promotion
-DNS setup
-User and group creation
-Group Policy setup
+- Hypervisor installation
+- VM creation
+- Windows Server configuration
+- Domain Controller Promotion
+- DNS setup
+- User and group creation
+- Group Policy setup
