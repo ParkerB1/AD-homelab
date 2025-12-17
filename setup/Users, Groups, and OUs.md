@@ -17,19 +17,35 @@ OUs are logical containers used to organize objects in the domain and apply grou
 **naming convention:** department.role
 
 homelab.local
+
 - Users
+  
 --it.support
+  
 --hr.manager
+
 --finance.manager
+
 --sales.manager
+
 - Computers
+  
 --Client1
+  
 --Client2
+
 - Groups
+
 --GRP_IT_admin
+
 --GRP_IT_helpdesk
+
 --GRP_IT_RW
+
 --GRP_HR_RW
+
 --GRP_Sales_RW
+
 --GRP_Workstations
+
 - OUs
