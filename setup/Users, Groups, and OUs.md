@@ -16,6 +16,8 @@ OUs are logical containers used to organize objects in the domain and apply grou
 ## Structure
 **Naming convention:** department.role
 
+I will be using the AGDLP standard which is Accounts -> Global -> Domain Local -> Permissions. This means Accounts (users/computers) will be in global gropus, global groups will be added to Domain Local groups, and Domain Local groups will be given the permissions.
+
 homelab.local
 
 OUs
