@@ -4,48 +4,33 @@
 This document will list the users, groups, and OUs to demonstrate the structure of the environment.
 
 ## Users
-Users are individual user accounts that can log in to computers on the domain.
+Users are individual user accounts that can log in to computers on the domain. You create new groups by right clicking in any OU, click New, then click User.
 
 ## Groups
-Groups are a collection of users that are used to give permissions to multiple users by giving the permissions to the group. 
+Groups are a collection of users that are used to give permissions to multiple users by giving the permissions to the group. You create new groups by right clicking in any OU, click New, then click Group.
 
 
 ## Organizational Units
-OUs are logical containers used to organize objects in the domain and apply group policies
+OUs are logical containers used to organize objects in the domain and apply group policies. You create new OUs by right clicking the domain name in Active Directory Users and Computers, click New, then click Organizational Unit.
 
 ## Structure
-**naming convention:** department.role
+**Naming convention:** department.role
 
 homelab.local
 
+OUs
 - Users
-  
---it.support
-  
---hr.manager
-
---finance.manager
-
---sales.manager
-
+  - IT
+  - HR
+  - Finance
+  - Sales
 - Computers
-  
---Client1
-  
---Client2
-
+  - Workstations
+    - Client1
+    - Client2
+  - Servers
 - Groups
-
---GRP_IT_admin
-
---GRP_IT_helpdesk
-
---GRP_IT_RW
-
---GRP_HR_RW
-
---GRP_Sales_RW
-
---GRP_Workstations
-
-- OUs
+  - GRP_IT
+  - GRP_HR
+  - GRP_Finance
+  - GRP_Sales
